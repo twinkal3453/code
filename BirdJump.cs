@@ -44,13 +44,6 @@ public class BirdJump : MonoBehaviour
             return;
         }
     }
-    //public void Play()
-   // {
-        //i++;
-       // HScore.text = score.ToString();
-       // PlayerPrefs.SetInt("score", score);
-        //HighScore();
-   // }
     public void HighScore()
     {
         if (PlayerPrefs.GetInt("score") > PlayerPrefs.GetInt("HScore"))
